@@ -1,0 +1,125 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #23232e;
+}
+.curso-pointer{
+    cursor: pointer;
+}
+
+/* skeleton */
+
+/* Index */
+.logo-ifilm{
+    width: 100px;
+}
+.navbar-toggler{
+    border-color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: unset;
+}
+.navbar-toggler svg{
+    color: #fff;
+}
+.btn-outline-green_if{
+    color: #2f9e41;
+    border: 1px solid #2f9e41;
+    border-radius: var(--bs-border-radius);
+}
+.btn.btn-outline-green_if{
+    color: #2f9e41;
+    border: 1px solid #2f9e41;
+}
+
+/* Carrossel */
+.box{
+    margin-bottom: 60px;
+}
+.title_box{
+    color: #fff;
+}
+.swiper-pagination.dots{
+    bottom: -20px;
+}
+.swiper-pagination{
+    bottom: -30px!important;   
+}
+
+/* Card Filme */
+img.image-card{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+/* Filme */
+.back{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+.back img{
+    width: 32px;
+}
+.box_film{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width: 991px){
+    .box_film{
+        flex-direction: row;
+    }
+}
+#title{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.box_image{
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width: 991px){
+    .box_image{
+        width: 300px;
+    }
+}
+.box_image #image{
+    width: 200px;
+}
+.film_content{
+    margin-bottom: 40px;
+}
+@media(min-width: 991px){
+    .film_content{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .text_film{
+        width: 80%;
+        margin-left: 30px;
+    }
+}
+
+/* Page Search */
+#searchResult{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card__search{
+    width: 47%;
+}
+@media(min-width: 991px){
+    .card__search{
+        width: 18%;
+    }
+}

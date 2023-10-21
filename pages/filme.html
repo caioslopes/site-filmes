@@ -1,0 +1,43 @@
+<section id="film" class="box_film text-light">
+
+    <!-- Template dos cards dos filmes -->
+    <template id="template_card">
+        <div class="cardFilm swiper-slide">
+            <img src="" class="image-card" alt="...">
+        </div>
+    </template>
+    
+    <div class="container">
+
+        <div class="film_content">
+            <div id="box_image" class="box_image d-flex justify-content-center">
+                <img id="image" src="" alt="">
+            </div>
+            
+            <div class="d-flex flex-column gap-2 text_film">
+                <div id="title"></div>
+                <div id="tagline"></div>
+                <div id="overview"></div>
+                <div id="genres"></div>
+                <div id="id_film"></div>
+                <div id="imdb_id"></div>
+                <div id="production_companies"></div>
+                <div id="release_date"></div>
+                <div id="runtime"></div>
+            </div>
+        </div>
+
+        <!-- Carrossel -->
+        <div id="similar" class="position-relative box">
+            <h1 class="title_box">Similares</h1>
+            <div class="swiper carouselCards">
+                <div id="similarFilms" class="swiper-wrapper"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+</section>
